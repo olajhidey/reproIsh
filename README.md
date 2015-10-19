@@ -128,6 +128,7 @@ npm install
 * Install bower which will be used to manager packages
 ```
 npm install -g bower
+```
 * Install frontend packages with bower
 ```
 bower install
@@ -137,7 +138,6 @@ bower install
 ```
 gulp build
 ```
-
 
 ### Screenshots
 
