@@ -13,6 +13,12 @@ This repository is developed upon the following tools:
 * [Image CRUD](http://www.grocerycrud.com/image-crud) (v0.6) - CRUD library for image management
 * [AdminLTE](https://github.com/almasaeed2010/AdminLTE) (v2.3.0) - bootstrap theme for Admin Panel
 
+### Server Requirements (Preferred)
+
+* **PHP 5.5+** (mainly for [password_hash()](http://php.net/manual/en/function.password-hash.php) and [password_verify()](http://php.net/manual/en/function.password-verify.php) functions as used in this project); and also the usage of [shortcut syntax](http://php.net/manual/en/migration54.new-features.php) in this project needs  **5.4+** and above.
+* **Apache 2.2+** with rewrite mod enabled
+* **MySQL 5.5+**
+
 
 ### Features
 
