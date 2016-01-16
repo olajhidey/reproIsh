@@ -106,6 +106,9 @@ A gulp file (**gulpfile.js**) is prepared for asset pipeline. To make use of it,
 
 * [node.js](http://nodejs.org/): which includes a package manager (npm) for node modules
 * [bower](http://bower.io/): package manager for bower components (to handle third-party assets)
+```
+npm install -g bower
+```
 * [gulp](http://gulpjs.com/): task runner for lots of purposes, e.g. compile, combine and minify scripts
 
 Afterwards, change directory from your terminal to where you cloned the repository.
@@ -115,19 +118,10 @@ Afterwards, change directory from your terminal to where you cloned the reposito
 3. Update **gulpfile.js** (which is written in CoffeeScript), then use gulp command to start preset tasks: ```gulp```
 4. After all you will find the post-processed files under the **"assets/dist"** folder, means you have successfully configured it :)
 
-### Setup Procedure
-
-1. Git clone this repository to a LAMP / WAMP server
-2. In prior to use both frontend & backend system, create a MySQL database (e.g. named "ci_bootstrap"), then import data from sql/ci_bootstrap.sql
-3. Update database config file (e.g. under applications/backend/config)
-4. Frontend Website can be visited via link like: http://localhost/codeigniter_boilerplate/
-5. Backend System can be visited via link like: http://localhost/codeigniter_boilerplate/backend.php; and login as **admin**/**admin**
-6. That's it! You should see a fancy membership-enabled frontend, as well as an AdminLTE dashboard from backend
-
 
 ### Get Started 
 
-* Clone che codes
+* Git clone this repository to a LAMP / WAMP server
 ```
 git clone https://github.com/jiji262/codeigniter_boilerplate.git
 ```
@@ -136,10 +130,7 @@ git clone https://github.com/jiji262/codeigniter_boilerplate.git
 ```
 npm install
 ```
-* Install bower which will be used to manager packages
-```
-npm install -g bower
-```
+
 * Install frontend packages with bower
 ```
 bower install
@@ -149,6 +140,17 @@ bower install
 ```
 gulp build
 ```
+
+* Setup Database
+
+1) create a MySQL database (e.g. named "ci_bootstrap"), then import data from sql/ci_bootstrap.sql
+2) Update database config file (e.g. under applications/backend/config)
+
+* Done.
+
+That's it. After that, we can visit this project like:
+Frontend: http://localhost/codeigniter_boilerplate/
+Backend: http://localhost/codeigniter_boilerplate/backend.php (login as **admin**/**admin**)
 
 ### Screenshots
 
