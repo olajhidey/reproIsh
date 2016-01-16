@@ -153,7 +153,7 @@ That's it. After that, we can visit this project like:
 
 Frontend: http://localhost/codeigniter_boilerplate/
 
-Backend: http://localhost/codeigniter_boilerplate/backend.php (login as **admin**/**admin**)
+Backend: http://localhost/codeigniter_boilerplate/admin/ (login as **admin**/**admin**)
 
 ### Screenshots
 
