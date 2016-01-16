@@ -144,12 +144,15 @@ gulp build
 * Setup Database
 
 1) create a MySQL database (e.g. named "ci_bootstrap"), then import data from sql/ci_bootstrap.sql
+
 2) Update database config file (e.g. under applications/backend/config)
 
 * Done.
 
 That's it. After that, we can visit this project like:
+
 Frontend: http://localhost/codeigniter_boilerplate/
+
 Backend: http://localhost/codeigniter_boilerplate/backend.php (login as **admin**/**admin**)
 
 ### Screenshots
