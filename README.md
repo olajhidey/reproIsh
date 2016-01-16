@@ -127,6 +127,11 @@ Afterwards, change directory from your terminal to where you cloned the reposito
 
 ### Get Started 
 
+* Clone che codes
+```
+git clone https://github.com/jiji262/codeigniter_boilerplate.git
+```
+
 * Install dependency software with npm
 ```
 npm install
