@@ -77,7 +77,10 @@ $db['default'] = array(
 	'char_set' => 'utf8',
 	'dbcollat' => 'utf8_general_ci',
 	'swap_pre' => '',
-	'encrypt' => FALSE,
+	'encrypt' => array(
+		'ssl_ca' => realpath('./cert/BaltimoreCyberTrustRoot.crt.pem'),
+		'ssl_verify' => FALSE
+	),
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
