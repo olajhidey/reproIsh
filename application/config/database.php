@@ -64,10 +64,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '123456',
-	'database' => 'ci_bootstrap_3',
+	'hostname' => getenv('WEB_MYSQL_HOST'),
+	'username' => getenv('WEB_MYSQL_USER'),
+	'password' => getenv('WEB_MYSQL_PASS'),
+	'database' => getenv('WEB_MYSQL_DB'),
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
