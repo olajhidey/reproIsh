@@ -55,7 +55,7 @@
  */
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 
-	echo ENVIRONMENT;
+	echo "Hello" + ENVIRONMENT;
 	echo getenv('WEB_MYSQL_DB');
 
 /*
